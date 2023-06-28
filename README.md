@@ -1,4 +1,4 @@
-# Connectome utilities
+# ConnectomeUtilities
 
 Complex network representation and analysis layer
 
@@ -8,7 +8,7 @@ Complex network representation and analysis layer
 
 # Table of Contents
 
-1. [What is Connectome Utilities?](#what-is-connectome-utilities-and-what-does-it-provide)
+1. [What is ConnectomeUtilities?](#what-is-connectome-utilities-and-what-does-it-provide)
     * [Usage with Sonata-based models](#usage-with-sonata-based-models)
     * [A Non-sonata based example](#a-non-sonata-based-example)
     * [Summary](#summary)
@@ -22,9 +22,9 @@ Complex network representation and analysis layer
 6. [Citation](#citation)
 7. [Acknowledgements and Funding](#acknowledgements--funding)
 
-## What is Connectome Utilities and what does it provide?
+## What is ConnectomeUtilities and what does it provide?
 
-The purpose of Connectome Utilities is to simplify running topological analyses on detailed models of networks by providing a bridge between existing analyses and the model representation. The purpose is not to provide the analyses themselves, there are great existing packages and solutions for that. But to simplify their application to the case of complex, non-homogeneous networks associated with interdependent node and edge properties. This comes in the form of two types of functionality: First, loading complex connectomes into a reduced representation that still keeps salient details. Second, automate standard operations, such as extraction of specific subnetworks and generation of statistical controls.
+The purpose of ConnectomeUtilities is to simplify running topological analyses on detailed models of networks by providing a bridge between existing analyses and the model representation. The purpose is not to provide the analyses themselves, there are great existing packages and solutions for that. But to simplify their application to the case of complex, non-homogeneous networks associated with interdependent node and edge properties. This comes in the form of two types of functionality: First, loading complex connectomes into a reduced representation that still keeps salient details. Second, automate standard operations, such as extraction of specific subnetworks and generation of statistical controls.
 
 With respect to the first point, loading from [SONATA](https://github.com/BlueBrain/libsonata) models is provided. But once loaded, the representation is independent from Sonata and the second point provides utility also for non-Sonata networks.
 
